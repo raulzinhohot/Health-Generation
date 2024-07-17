@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/new_background_fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:textAlignment="center"
+        android:text="Healt Generation"
+        android:textSize="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="@drawable/backgroud_texto"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="Nome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="@drawable/backgroud_texto"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="E-mail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="@drawable/backgroud_texto"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="Senha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/azul4"
+        android:text="Cadastre-se"
+        android:onClick="proximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
